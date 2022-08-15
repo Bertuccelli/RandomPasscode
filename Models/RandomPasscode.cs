@@ -2,7 +2,7 @@
 
 namespace RandomPasscode.Models;
 
-public class RandomPasscode
+public class Password
 {
     public string Passcode {get; set;}
     public string GeneratePass()

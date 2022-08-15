@@ -13,7 +13,7 @@ public class HomeController : Controller {
         if(Count == null){
             HttpContext.Session.SetInt32("count", 1);
         }
-        RandomPasscode newPass = new RandomPasscode();
+        Password newPass = new Password();
         return View("Index", newPass);
     }
 
